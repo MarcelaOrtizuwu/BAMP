@@ -1,0 +1,937 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.icono{
+  width: 45px;
+  height: 40px;
+  z-index: 300;
+}
+
+input[type="checkbox"]{
+  display: none;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+nav{
+  background-color: rgba(90, 20, 255, 0.87);
+  width: 250px;
+  height: 180%;
+  left: -250px;
+  position: absolute;
+  transition: all .5s;
+  z-index: 150;
+}
+
+input[type="checkbox"]:checked~nav{
+  transform: translateX(250px);
+}
+
+ul{
+  list-style: none;
+  top: 70px;
+  position: absolute;
+  width: 100%;
+}
+
+a{
+  position: relative;
+  display: block;
+  padding: 20px 5px;
+  font-family: 'calibri';
+  font-weight: bold;
+  font-size: 30px;
+}
+
+a:hover{
+  background-color: rgb(176, 224, 230);
+  color: black;
+}
+
+label{
+  padding: 15px;
+  position: absolute;
+  z-index: 200;
+}
+
+.mapita{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 100;
+}
+
+.ola1{
+  width: 100%;
+  position: absolute;
+  margin-left: 0%;
+  margin-top: 44%;
+  overflow: hidden;
+  z-index: 99;
+}
+.ola1 img{
+  position: relative;
+  width: 140%;
+  animation-name: oleaje;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.ola2{
+  width: 100%;
+  position: absolute;
+  margin-left: 0%;
+  margin-top: 42.3%;
+  overflow: hidden;
+  z-index: 98;
+}
+.ola2 img{
+  position: relative;
+  width: 140%;
+  animation-name: oleaje2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.ola3{
+  width: 100%;
+  position: absolute;
+  margin-left: 0%;
+  margin-top: 40.5%;
+  overflow: hidden;
+  z-index: 97;
+}
+.ola3 img{
+  position: relative;
+  width: 140%;
+  animation-name: oleaje;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.ola4{
+  width: 100%;
+  position: absolute;
+  margin-left: 0%;
+  margin-top: 39%;
+  overflow: hidden;
+  z-index: 96;
+}
+.ola4 img{
+  position: relative;
+  width: 140%;
+  animation-name: oleaje2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.ola5{
+  width: 100%;
+  position: absolute;
+  margin-left: 0%;
+  margin-top: 37.5%;
+  overflow: hidden;
+  z-index: 95;
+}
+.ola5 img{
+  position: relative;
+  width: 140%;
+  animation-name: oleaje;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.ola6{
+  width: 100%;
+  position: absolute;
+  margin-left: 0%;
+  margin-top: 36%;
+  overflow: hidden;
+  z-index: 94;
+}
+.ola6 img{
+  position: relative;
+  width: 140%;
+  animation-name: oleaje2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.ola7{
+  width: 100%;
+  position: absolute;
+  margin-left: 0%;
+  margin-top: 34.5%;
+  overflow: hidden;
+  z-index: 93;
+}
+.ola7 img{
+  position: relative;
+  width: 140%;
+  animation-name: oleaje;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.ola8{
+  width: 100%;
+  position: absolute;
+  margin-left: 0%;
+  margin-top: 33%;
+  overflow: hidden;
+  z-index: 92;
+}
+.ola8 img{
+  position: relative;
+  width: 140%;
+  animation-name: oleaje2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.ola9{
+  width: 100%;
+  position: absolute;
+  margin-left: 0%;
+  margin-top: 31.5%;
+  overflow: hidden;
+  z-index: 91;
+}
+.ola9 img{
+  position: relative;
+  width: 140%;
+  animation-name: oleaje;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.ola10{
+  width: 100%;
+  position: absolute;
+  margin-left: 0%;
+  margin-top: 30%;
+  overflow: hidden;
+  z-index: 90;
+}
+.ola10 img{
+  position: relative;
+  width: 140%;
+  animation-name: oleaje2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.ola11{
+  width: 100%;
+  position: absolute;
+  margin-left: 0%;
+  margin-top: 28.5%;
+  overflow: hidden;
+  z-index: 89;
+}
+.ola11 img{
+  position: relative;
+  width: 140%;
+  animation-name: oleaje;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.ola12{
+  width: 100%;
+  position: absolute;
+  margin-left: 0%;
+  margin-top: 27%;
+  overflow: hidden;
+  z-index: 88;
+}
+.ola12 img{
+  position: relative;
+  width: 140%;
+  animation-name: oleaje2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.ola13{
+  width: 100%;
+  position: absolute;
+  margin-left: 0%;
+  margin-top: 26%;
+  overflow: hidden;
+  z-index: 87;
+}
+.ola13 img{
+  position: relative;
+  width: 140%;
+  animation-name: oleaje;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.ola14{
+  width: 100%;
+  position: absolute;
+  margin-left: 0%;
+  margin-top: 24.5%;
+  overflow: hidden;
+  z-index: 86;
+}
+.ola14 img{
+  position: relative;
+  width: 140%;
+  animation-name: oleaje2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.ola15{
+  width: 100%;
+  position: absolute;
+  margin-left: 0%;
+  margin-top: 23%;
+  overflow: hidden;
+  z-index: 85;
+}
+.ola15 img{
+  position: relative;
+  width: 140%;
+  animation-name: oleaje;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.ola16{
+  width: 100%;
+  position: absolute;
+  margin-left: 0%;
+  margin-top: 21.5%;
+  overflow: hidden;
+  z-index: 84;
+}
+.ola16 img{
+  position: relative;
+  width: 140%;
+  animation-name: oleaje2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.ola17{
+  width: 100%;
+  position: absolute;
+  margin-left: 0%;
+  margin-top: 20%;
+  overflow: hidden;
+  z-index: 83;
+}
+.ola17 img{
+  position: relative;
+  width: 140%;
+  animation-name: oleaje;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.ola18{
+  width: 100%;
+  position: absolute;
+  margin-left: 0%;
+  margin-top: 18.5%;
+  overflow: hidden;
+  z-index: 82;
+}
+.ola18 img{
+  position: relative;
+  width: 140%;
+  animation-name: oleaje2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.ola19{
+  width: 100%;
+  position: absolute;
+  margin-left: 0%;
+  margin-top: 17%;
+  overflow: hidden;
+  z-index: 81;
+}
+.ola19 img{
+  position: relative;
+  width: 140%;
+  animation-name: oleaje;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.ola20{
+  width: 100%;
+  position: absolute;
+  margin-left: 0%;
+  margin-top: 15.5%;
+  overflow: hidden;
+  z-index: 80;
+}
+.ola20 img{
+  position: relative;
+  width: 140%;
+  animation-name: oleaje2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.ola21{
+  width: 100%;
+  position: absolute;
+  margin-left: 0%;
+  margin-top: 14%;
+  overflow: hidden;
+  z-index: 79;
+}
+.ola21 img{
+  position: relative;
+  width: 140%;
+  animation-name: oleaje;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.ola22{
+  width: 100%;
+  position: absolute;
+  margin-left: 0%;
+  margin-top: 12.5%;
+  overflow: hidden;
+  z-index: 78;
+}
+.ola22 img{
+  position: relative;
+  width: 140%;
+  animation-name: oleaje2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.ola23{
+  width: 100%;
+  position: absolute;
+  margin-left: 0%;
+  margin-top: 11%;
+  overflow: hidden;
+  z-index: 77;
+}
+.ola23 img{
+  position: relative;
+  width: 140%;
+  animation-name: oleaje;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.ola24{
+  width: 100%;
+  position: absolute;
+  margin-left: 0%;
+  margin-top: 9.5%;
+  overflow: hidden;
+  z-index: 76;
+}
+.ola24 img{
+  position: relative;
+  width: 140%;
+  animation-name: oleaje2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.ola25{
+  width: 100%;
+  position: absolute;
+  margin-left: 0%;
+  margin-top: 28.5%;
+  overflow: hidden;
+  z-index: 75;
+}
+.ola25 img{
+  position: relative;
+  width: 140%;
+  animation-name: oleaje;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.ola26{
+  width: 100%;
+  position: absolute;
+  margin-left: 0%;
+  margin-top: 27%;
+  overflow: hidden;
+  z-index: 74;
+}
+.ola26 img{
+  position: relative;
+  width: 140%;
+  animation-name: oleaje2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.ola27{
+  width: 100%;
+  position: absolute;
+  margin-left: 0%;
+  margin-top: 26%;
+  overflow: hidden;
+  z-index: 73;
+}
+.ola27 img{
+  position: relative;
+  width: 140%;
+  animation-name: oleaje;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.ola28{
+  width: 100%;
+  position: absolute;
+  margin-left: 0%;
+  margin-top: 20%;
+  overflow: hidden;
+  z-index: 72;
+}
+.ola28 img{
+  position: relative;
+  width: 140%;
+  animation-name: oleaje2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.ola29{
+  width: 100%;
+  position: absolute;
+  margin-left: 0%;
+  margin-top: 8.3%;
+  overflow: hidden;
+  z-index: 71;
+}
+.ola29 img{
+  position: relative;
+  width: 140%;
+  animation-name: oleaje;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.ola30{
+  width: 100%;
+  position: absolute;
+  margin-left: 0%;
+  margin-top: 7%;
+  overflow: hidden;
+  z-index: 70;
+}
+.ola30 img{
+  position: relative;
+  width: 140%;
+  animation-name: oleaje2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.ola31{
+  width: 100%;
+  position: absolute;
+  margin-left: 6.5%;
+  margin-top: 14%;
+  overflow: hidden;
+  z-index: 69;
+}
+.ola31 img{
+  position: relative;
+  width: 140%;
+  animation-name: oleaje;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.ola32{
+  width: 100%;
+  position: absolute;
+  margin-left: 0%;
+  margin-top: 5.5%;
+  overflow: hidden;
+  z-index: 68;
+}
+.ola32 img{
+  position: relative;
+  width: 140%;
+  animation-name: oleaje2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.ola33{
+  width: 100%;
+  position: absolute;
+  margin-left: 0%;
+  margin-top: 4%;
+  overflow: hidden;
+  z-index: 67;
+}
+.ola33 img{
+  position: relative;
+  width: 140%;
+  animation-name: oleaje;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.ola34{
+  width: 100%;
+  position: absolute;
+  margin-left: 0%;
+  margin-top: 2.5%;
+  overflow: hidden;
+  z-index: 66;
+}
+.ola34 img{
+  position: relative;
+  width: 140%;
+  animation-name: oleaje2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.ola35{
+  width: 100%;
+  position: absolute;
+  margin-left: 0%;
+  margin-top: 1%;
+  overflow: hidden;
+  z-index: 65;
+}
+.ola35 img{
+  position: relative;
+  width: 140%;
+  animation-name: oleaje;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.ola36{
+  width: 100%;
+  position: absolute;
+  margin-left: 0%;
+  margin-top: -.5%;
+  overflow: hidden;
+  z-index: 64;
+}
+.ola36 img{
+  position: relative;
+  width: 140%;
+  animation-name: oleaje2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.ola37{
+  width: 100%;
+  position: absolute;
+  margin-left: 0%;
+  margin-top: -2%;
+  overflow: hidden;
+  z-index: 63;
+}
+.ola37 img{
+  position: relative;
+  width: 140%;
+  animation-name: oleaje;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.ola38{
+  width: 100%;
+  position: absolute;
+  margin-left: 0%;
+  margin-top: -3.5%;
+  overflow: hidden;
+  z-index: 62;
+}
+.ola38 img{
+  position: relative;
+  width: 140%;
+  animation-name: oleaje2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes oleaje{
+  0%{left: -8px; top:20px;}
+  25%{left: -4px; top: 17px;}
+  40%{left: -3px; top: 13px;}
+  50%{left: -2px; top: 10px;}
+  62%{left: -1.5px; top: 15px;}
+  75%{left: -2px; top: 17px;}
+  87%{left: -4px; top: 18px;}
+  100%{left: -8px; top: 20px;}
+}
+
+@keyframes oleaje2{
+  0%{left: -2px; top:20px;}
+  25%{left: -3px; top: 17px;}
+  40%{left: -4px; top: 13px;}
+  50%{left: -8px; top: 10px;}
+  62%{left: -8.5px; top: 15px;}
+  75%{left: -8px; top: 17px;}
+  87%{left: -4px; top: 18px;}
+  100%{left: -2px; top: 20px;}
+}
+
+.form{
+  width: 400px;
+  padding: 30px;
+  border-radius: 10px;
+  background: #e9dbaf;
+  color: white;
+  box-sizing: border-box;
+  box-shadow: 7px 13px 37px #000;
+  margin-left: 15%;
+  margin-top: 0%;
+  margin-bottom: 50px ; 
+  font-family: 'calibri';
+  color: black;
+  position: absolute;
+  z-index: 200;
+}
+
+.control{
+    width: 94.5%;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: black;
+}
+
+.sis{
+  width: 100%;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: black;
+}
+
+.form p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.form a{
+    color: white;
+    text-decoration: none;
+}
+
+.form a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+
+.form .botonxd{
+    width: 100%;
+    background: #f87d0a;
+    color: white;
+    border: none;
+    padding: 12px;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+p{
+  text-align:center;
+  color: #141cb8;
+  font-family: 'calibri';
+  font-size: x-large;
+  z-index: 200;
+}
+
+h1{
+  text-align:center;
+  color: #141cb8;
+  font-size: 70px;
+  font-family: zapf;
+  z-index: 200;
+}
+
+.ashu{
+  width: 80%;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  font-family: zapf;
+  font-size: 18px;
+  color: black;
+  z-index: 200;
+}
+
+.abajo{
+  width: 400px;
+  padding: 30px;
+  border-radius: 10px;
+  background: #e9dbaf;
+  color: white;
+  box-sizing: border-box;
+  box-shadow: 7px 13px 37px #000;
+  margin-left: 15%;
+  margin-top: 33%;
+  margin-bottom: 50px ; 
+  font-family: 'calibri';
+  color: black;
+  position: absolute;
+  z-index: 200;
+}
+
+.abajo p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.abajo a{
+    color: white;
+    text-decoration: none;
+}
+
+.abajo a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+
+.abajo .botonxd{
+    width: 100%;
+    background: #f87d0a;
+    color: white;
+    border: none;
+    padding: 12px;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.abajo2{
+  width: 400px;
+  padding: 30px;
+  border-radius: 10px;
+  background: #e9dbaf;
+  color: white;
+  box-sizing: border-box;
+  box-shadow: 7px 13px 37px #000;
+  margin-left: 60%;
+  margin-top: 33%;
+  margin-bottom: 50px ; 
+  font-family: 'calibri';
+  color: black;
+  position: absolute;
+  z-index: 200;
+}
+
+.abajo2 p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.abajo2 a{
+    color: white;
+    text-decoration: none;
+}
+
+.abajo2 a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+
+.abajo2 .botonxd{
+    width: 100%;
+    background: #f87d0a;
+    color: white;
+    border: none;
+    padding: 12px;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.abajo3{
+  width: 400px;
+  padding: 30px;
+  border-radius: 10px;
+  background: #e9dbaf;
+  color: white;
+  box-sizing: border-box;
+  box-shadow: 7px 13px 37px #000;
+  margin-left: 60%;
+  margin-top: 0%;
+  margin-bottom: 50px ; 
+  font-family: 'calibri';
+  color: black;
+  position: absolute;
+  z-index: 200;
+}
+
+.abajo3 p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.abajo3 a{
+    color: white;
+    text-decoration: none;
+}
+
+.abajo3 a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+
+.abajo3 .botonxd{
+    width: 100%;
+    background: #f87d0a;
+    color: white;
+    border: none;
+    padding: 12px;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.logo{
+  height: 225px;
+  width: 350px;
+  position: absolute;
+  overflow: hidden;
+  z-index: 199;
+  margin-left: 20%;
+}
+
+.logo img{
+  position: relative;
+  width: 350px;
+  height: 300px;
+}
